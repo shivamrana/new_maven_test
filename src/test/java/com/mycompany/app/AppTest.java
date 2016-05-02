@@ -24,3 +24,4 @@ public class AppTest {
         app.anotherVeryUsefulBusinessMethod("Bake potatos");
         app.anotherVeryUsefulBusinessMethod("Run integration tests");
     }
+}
