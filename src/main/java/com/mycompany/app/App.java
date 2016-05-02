@@ -14,6 +14,15 @@ public class App {
         return new Random().nextInt(8);
     }
 
+    public int anotherVeryUsefulBusinessMethod(String whatToDo){
+        if ("work hard".equals(whatToDo)) {
+            System.out.println("Working hard now");
+        } else {
+            System.out.println("I will not " + whatToDo);
+        }
+    }
+
+
     public static void main(String args[]) {
         System.out.println("****************************************");
         System.out.println("hello world");
