@@ -14,7 +14,7 @@ public class App {
         return new Random().nextInt(8);
     }
 
-    public int anotherVeryUsefulBusinessMethod(String whatToDo){
+    public void anotherVeryUsefulBusinessMethod(String whatToDo){
         if ("work hard".equals(whatToDo)) {
             System.out.println("Working hard now");
         } else {
