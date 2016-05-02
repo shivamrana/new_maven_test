@@ -18,4 +18,9 @@ public class AppTest {
 
     }
 
-}
+    @Test
+    public void testAnotherVeryUsefulBusinessMethod() throws Exception {
+        App app = new App();
+        app.anotherVeryUsefulBusinessMethod("Bake potatos");
+        app.anotherVeryUsefulBusinessMethod("Run integration tests");
+    }
