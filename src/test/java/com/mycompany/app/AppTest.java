@@ -31,8 +31,8 @@ public class AppTest {
 
     @Test
     public void testMethodNotSoImportant() throws Exception {
-//        Assert.assertEquals(11, app.methodNotSoImportant(11));
-//        Assert.assertEquals(0, app.methodNotSoImportant(9));
+        Assert.assertEquals(11, app.methodNotSoImportant(11));
+        Assert.assertEquals(0, app.methodNotSoImportant(9));
     }
 
     @Test
