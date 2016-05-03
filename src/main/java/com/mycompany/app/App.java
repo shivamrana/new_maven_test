@@ -22,6 +22,21 @@ public class App {
         }
     }
 
+    public Long methodImportant() {
+        return Math.round(1000*Math.random());
+    }
+
+    public int methodNotSoImportant(int param) {
+        if (param > 10) {
+            return param;
+        }
+
+        return 0;
+    }
+
+    public String methodOfUnknownImportance() {
+        return "Ululam Athenas Ferre";
+    }
 
     public static void main(String args[]) {
         System.out.println("****************************************");

@@ -7,9 +7,9 @@ import org.junit.Test;
  * @author Alexey Z
  */
 public class AppTest {
+    private final App app = new App();
     @Test
     public void testMethod1() throws Exception {
-        App app = new App();
         Assert.assertEquals(app.method1(5), "Less than 7");
     }
 
@@ -20,8 +20,25 @@ public class AppTest {
 
     @Test
     public void testAnotherVeryUsefulBusinessMethod() throws Exception {
-        App app = new App();
         app.anotherVeryUsefulBusinessMethod("Bake potatos");
         app.anotherVeryUsefulBusinessMethod("Run integration tests");
     }
+
+    @Test
+    public void testMethodImportant() throws Exception {
+        Assert.assertTrue(1001 > app.methodImportant());
+    }
+
+    @Test
+    public void testMethodNotSoImportant() throws Exception {
+//        Assert.assertEquals(11, app.methodNotSoImportant(11));
+//        Assert.assertEquals(0, app.methodNotSoImportant(9));
+    }
+
+    @Test
+    public void testMethodOfUnknownImportance() throws Exception {
+        // todo Implement test
+    }
+
+
 }
