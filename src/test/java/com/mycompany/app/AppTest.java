@@ -18,7 +18,7 @@ public class AppTest {
 
     }
 
-    @Test
+    /*@Test
     public void testAnotherVeryUsefulBusinessMethod() throws Exception {
         app.anotherVeryUsefulBusinessMethod("Bake potatos");
         app.anotherVeryUsefulBusinessMethod("Run integration tests");
@@ -27,7 +27,7 @@ public class AppTest {
     @Test
     public void testMethodImportant() throws Exception {
         Assert.assertTrue(1001 > app.methodImportant());
-    }
+    }*/
 
     @Test
     public void testMethodNotSoImportant() throws Exception {
