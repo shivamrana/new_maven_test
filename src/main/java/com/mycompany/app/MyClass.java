@@ -7,8 +7,10 @@ public class MyClass {
 		int x = 0;
 		int y = 0;
 		int result;
+		App app = new App();
 		
-		x = 3;
+		x = app.doInt();
+		
 		y = 4;
 		
 		result = x + y;
