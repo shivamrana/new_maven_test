@@ -3,7 +3,7 @@ package com.mycompany.app;
 import java.io.Console;
 
 public class MyClass {
-	public int SomeMethod(){
+	/*public int SomeMethod(){
 		int x = 0;
 		int y = 0;
 		int result;
@@ -16,7 +16,7 @@ public class MyClass {
 		result = 2* result;
 		
 		return result;
-	}
+	}*/
 	
 	public int SomeMethod2(){
 		int x = 0;
